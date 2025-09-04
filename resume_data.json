@@ -1,0 +1,35 @@
+{
+  "name": "Sohaib Ahmed",
+  "title": "Software Tester & Aspiring AI Engineer",
+  "email": "sohaib@example.com",
+  "phone": "+92 300 1234567",
+  "summary": "Passionate about AI, cryptography, and building practical solutions to complex problems.",
+  "skills": [
+    "Python", 
+    "Machine Learning", 
+    "Testing Automation", 
+    "APIs", 
+    "Cryptography"
+  ],
+  "experience": [
+    {
+      "role": "Software Tester",
+      "company": "ABC Tech",
+      "years": "2022 - Present",
+      "details": "Worked on automating test suites, improving coverage, and collaborating with developers to fix bugs quickly."
+    },
+    {
+      "role": "AI Projects (Independent)",
+      "company": "Personal GitHub",
+      "years": "2023 - 2025",
+      "details": "Built multiple AI projects like sentiment analyzers, AI journals, and text analysis tools."
+    }
+  ],
+  "education": [
+    {
+      "degree": "BS in Computer Science",
+      "institution": "XYZ University",
+      "years": "2019 - 2023"
+    }
+  ]
+}
