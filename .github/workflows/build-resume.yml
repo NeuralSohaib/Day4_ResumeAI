@@ -1,0 +1,30 @@
+name: Build Resume
+
+on:
+  workflow_dispatch:   # Run manually from GitHub Actions tab
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Generate Resume
+        run: |
+          python resume_builder.py
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v3
+        with:
+          name: generated-resume
+          path: output/resume.pdf
