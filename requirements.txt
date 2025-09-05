@@ -1,4 +1,9 @@
 jinja2
 rich
 python-docx
-textblob
+reportlab  
+textblob       
+nltk
+joblib   
+pytest     
+flake8          
